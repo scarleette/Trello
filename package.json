@@ -1,0 +1,11 @@
+{
+  "name": "trello",
+  "version": "0.0.1",
+  "description": "tablero para organizar tareas",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Scarlett Obreque",
+  "license": "ISC"
+}
