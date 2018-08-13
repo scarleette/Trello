@@ -1,0 +1,32 @@
+
+.barraMenu {
+  display: flex;
+  flex-direction: row;
+  background-color:  rgb(2,106,167);
+  width: auto;
+  height: 48px;
+  padding: 5px;
+  justify-content:space-around;
+}
+
+.botones {
+  background-color: rgb(139,189,217);
+  display: inline;
+}
+
+.boton1 {
+  width: 200px;
+  text-align: right;
+}
+
+.boton3 {
+  background-color: rgb(2,106,167);
+  width: 80px;
+  height: 20px;
+}
+
+.boton4, .boton5, .boton6, .boton7 {
+  width: 40px;
+  height: 40px;;
+}
+
