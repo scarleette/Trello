@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(228,240,246);
+}
 
 .barraMenu {
   display: flex;
@@ -6,7 +9,7 @@
   width: auto;
   height: 48px;
   padding: 5px;
-  justify-content:space-around;
+  justify-content:space-between;
 }
 
 .botones {
@@ -27,6 +30,49 @@
 
 .boton4, .boton5, .boton6, .boton7 {
   width: 40px;
-  height: 40px;;
+  height: 40px;
+}
+
+.boton7 {
+  border-radius: 100%;
+}
+
+.subMenu {
+  display: flex;
+  flex-direction: row;
+  background-color:  rgba(228, 240, 246, 0.952);
+  width: auto;
+  height: 45px;
+  padding: 1px;
+  justify-content:flex-start;
+}
+
+.botones2 {
+  margin: 3px;
+  border: none;
+  background-color: rgba(23, 20, 26, 0);
+  color: rgb(197, 181, 181);
+}
+
+.boton8 {
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.089);
+}
+
+.divider {
+  margin: 15px;
+  width: 1px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+.cuerpoDeTrello {
+  display: flex;
+  flex-direction: row;
+  background-color:  rgb(228,240,246);
+  width: auto;
+  height: 50px;
+  padding: 20px;
+  justify-content:space-between;
 }
 
